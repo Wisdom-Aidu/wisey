@@ -104,6 +104,7 @@ hr {
     top: 25px;
 }
 
+
 .bottomcloud{
     position: absolute;
     left: 100px;
@@ -158,3 +159,51 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+      
+      
+    /* media queries */
+    @media screen and (max-width:700px) {
+        .topcontainer {
+           width:100%
+            background-color: #e4f9f5;
+            padding-top: 100px;
+            position: relative;
+        }
+        .mountain {
+            width: 80%;
+            position: relative;
+            bottom: 30px;
+        }
+        .topcloud{
+            position: absolute;
+            right: 30px;
+            top: 25px;
+        }
+
+        .bottomcloud{
+            position: absolute;
+            left: 5px;
+            bottom: 170px;
+        }
+
+        .rose {
+            max-width: 50%;
+            float: right;
+            
+        }
+
+        .short {
+            width: 100%;
+            margin: auto;
+        }
+        .contact-message {
+            width: 100%;
+            
+        }
+        .intro {
+            width: 100%;
+            
+
+        
+        
+    }
